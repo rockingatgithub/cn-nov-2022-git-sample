@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        #div1 {
+            /* height: 300px; */
+            width: 100vw;
+            background-color: blanchedalmond;
+            margin: auto;
+        }
+
+        h1 {
+            display: none;
+        }
+
+        @media screen and (min-width:576px) {
+            #div1 {
+                width: 80vw;
+            }
+        }
+
+        @media screen and (min-width:768px) {
+            #div1 {
+                width: 50vw;
+            }
+        }
+
+        @media screen and (min-width:912px) {
+            #div1 {
+                width: 40vw;
+            }
+
+            h1 {
+                display: block;
+            }
+
+            h3 {
+                display: none;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h1> Page using media queries.  </h1>
+
+    <h3> Show on phone </h3>
+
+    <i class="fa-solid fa-bars"></i>
+
+    <div id="div1" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iste quia officiis ad, facere, veniam libero odit repellat est laudantium unde ab vero accusantium voluptatibus voluptatum nam consequatur laboriosam sint?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque! Doloribus quod nisi ratione, ipsa aspernatur aut quia sed pariatur nemo, vel ducimus alias totam dolorem, veniam nulla aliquam itaque!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis tempora libero, veniam cupiditate iure minima corrupti consequuntur unde possimus vero ad nisi labore, aspernatur, exercitationem assumenda pariatur voluptatem aperiam officiis!
+    </div>
+    
+</body>
+</html>
